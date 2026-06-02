@@ -1,6 +1,7 @@
 {
-  "scraped_at": "2026-06-01T06:00:00Z",
-  "note": "This file is auto-updated weekly by GitHub Actions. Sample events shown — run the scraper to populate with real data.",
+  "scraped_at": "2026-06-02T17:58:39Z",
+  "event_count": 10,
+  "errors": [],
   "events": [
     {
       "id": "lcfpd-2026-06-07-family-nature-hike",
@@ -16,7 +17,10 @@
       "cost": "free",
       "cost_detail": "",
       "ages": "all",
-      "categories": ["nature", "hiking"],
+      "categories": [
+        "nature",
+        "hiking"
+      ],
       "description": "Join a naturalist for a guided walk through Ryerson Woods to explore spring wildflowers and the pollinators that depend on them. All ages welcome.",
       "registration_required": true,
       "registration_url": "https://www.lcfpd.org/events/"
@@ -35,7 +39,10 @@
       "cost": "free",
       "cost_detail": "Poles provided",
       "ages": "5–12",
-      "categories": ["nature", "fishing"],
+      "categories": [
+        "nature",
+        "fishing"
+      ],
       "description": "Learn the basics of fishing from LCFPD staff. Poles and bait provided. Catch-and-release on the lake.",
       "registration_required": true,
       "registration_url": "https://www.lcfpd.org/events/"
@@ -54,7 +61,11 @@
       "cost": "free",
       "cost_detail": "",
       "ages": "7–12",
-      "categories": ["nature", "art", "library"],
+      "categories": [
+        "nature",
+        "art",
+        "library"
+      ],
       "description": "Create beautiful greeting cards using pressed flowers and leaves. All materials provided. Registration required.",
       "registration_required": true,
       "registration_url": "https://www.grayslake.info/events/"
@@ -73,7 +84,10 @@
       "cost": "free",
       "cost_detail": "Free; parking fee applies",
       "ages": "6–12",
-      "categories": ["nature", "science"],
+      "categories": [
+        "nature",
+        "science"
+      ],
       "description": "Kids complete nature activities and earn an Illinois Junior Ranger badge. Activities include habitat exploration, wildlife ID, and a beach cleanup.",
       "registration_required": false,
       "registration_url": ""
@@ -92,7 +106,10 @@
       "cost": "free",
       "cost_detail": "",
       "ages": "all",
-      "categories": ["nature", "hiking"],
+      "categories": [
+        "nature",
+        "hiking"
+      ],
       "description": "A guided morning walk through 'Pets' with a Kenosha County naturalist. Focus on early summer wildflowers, birds, and insects.",
       "registration_required": false,
       "registration_url": ""
@@ -111,7 +128,10 @@
       "cost": "paid",
       "cost_detail": "$5/child",
       "ages": "4–10",
-      "categories": ["nature", "science"],
+      "categories": [
+        "nature",
+        "science"
+      ],
       "description": "Grab your nets and magnifying glasses! We'll hunt for insects, spiders, and other creepy-crawlies in the meadow and forest.",
       "registration_required": true,
       "registration_url": "https://pringlenaturecenter.org/events"
@@ -130,7 +150,10 @@
       "cost": "free",
       "cost_detail": "",
       "ages": "all",
-      "categories": ["science", "library"],
+      "categories": [
+        "science",
+        "library"
+      ],
       "description": "A live animal presenter brings snakes, lizards, turtles, and more. Kids get up-close with real reptiles and learn about their habitats.",
       "registration_required": true,
       "registration_url": "https://www.wnpl.info/events/"
@@ -149,7 +172,11 @@
       "cost": "free",
       "cost_detail": "Admission free; parking ~$30",
       "ages": "all",
-      "categories": ["nature", "art", "science"],
+      "categories": [
+        "nature",
+        "art",
+        "science"
+      ],
       "description": "Drop-in family activities across the garden including nature journaling, seed planting, and guided discovery walks. No registration needed.",
       "registration_required": false,
       "registration_url": ""
@@ -168,7 +195,9 @@
       "cost": "free",
       "cost_detail": "",
       "ages": "all",
-      "categories": ["nature"],
+      "categories": [
+        "nature"
+      ],
       "description": "One of summer's most magical experiences! Join a naturalist at dusk to observe fireflies flashing in the meadows. Bring a flashlight and bug spray.",
       "registration_required": true,
       "registration_url": "https://www.lcfpd.org/events/"
@@ -187,7 +216,10 @@
       "cost": "free",
       "cost_detail": "Donations welcome",
       "ages": "all",
-      "categories": ["nature", "hiking"],
+      "categories": [
+        "nature",
+        "hiking"
+      ],
       "description": "Walk through Hawthorn Hollow's restored prairie at peak summer bloom. Learn to identify native wildflowers and the insects that visit them.",
       "registration_required": false,
       "registration_url": ""
