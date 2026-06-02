@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Places — Lake & Kenosha Homeschool Nature Guide</title>
+  <meta name="description" content="Trails, beaches, splash pads, playgrounds, nature centers, and more in Lake County IL and Kenosha County WI.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="leaf">🌿</span>
+      <span>Lake &amp; Kenosha Nature Guide</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="places.html" class="active">Places</a></li>
+      <li><a href="map.html">Map</a></li>
+      <li><a href="museum-passes.html">Museum Passes</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <h1>🗺️ Places to Explore</h1>
+    <p>Trails, beaches, nature centers, splash pads, farms, and more — permanently open spots worth bookmarking. Use the filters to find your next adventure.</p>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+
+      <button class="filter-toggle-btn" id="filter-toggle" aria-expanded="false">
+        <span>🔍 Filters</span>
+        <span id="filter-badge" class="filter-count-badge" style="display:none;">0</span>
+        <span id="filter-arrow">▼</span>
+      </button>
+
+      <div class="filter-layout">
+
+        <aside class="filter-sidebar" id="filter-sidebar">
+          <div class="filter-groups">
+
+            <div class="filter-group">
+              <span class="filter-label">📍 Region</span>
+              <label><input type="checkbox" name="county" value="lake-il"> Lake County IL</label>
+              <label><input type="checkbox" name="county" value="kenosha-wi"> Kenosha County WI</label>
+              <label><input type="checkbox" name="county" value="chicago-day-trip"> Chicago day trip</label>
+              <label><input type="checkbox" name="county" value="milwaukee-day-trip"> Milwaukee day trip</label>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-label">🏷️ Type</span>
+              <label><input type="checkbox" name="type" value="trail"> 🥾 Hiking trail</label>
+              <label><input type="checkbox" name="type" value="beach"> 🏖️ Beach / swimming</label>
+              <label><input type="checkbox" name="type" value="nature-center"> 🦋 Nature center</label>
+              <label><input type="checkbox" name="type" value="splash-pad"> 💦 Splash pad</label>
+              <label><input type="checkbox" name="type" value="aquatic-center"> 🏊 Aquatic center</label>
+              <label><input type="checkbox" name="type" value="farm"> 🌽 Farm / seasonal</label>
+              <label><input type="checkbox" name="type" value="fairground"> 🎪 Fair / festival</label>
+              <label><input type="checkbox" name="type" value="playground"> 🛝 Playground</label>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-label">💰 Cost</span>
+              <label><input type="radio" name="cost" value="all" checked> Free &amp; paid</label>
+              <label><input type="radio" name="cost" value="free"> Free only</label>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-label">🏷️ Features</span>
+              <label><input type="checkbox" name="tag" value="dog-friendly"> 🐕 Dog-friendly</label>
+              <label><input type="checkbox" name="tag" value="stroller-friendly"> 👶 Stroller-friendly</label>
+              <label><input type="checkbox" name="tag" value="accessible"> ♿ Accessible</label>
+              <label><input type="checkbox" name="tag" value="birding"> 🦅 Birding</label>
+              <label><input type="checkbox" name="tag" value="fishing"> 🎣 Fishing</label>
+              <label><input type="checkbox" name="tag" value="paddling"> 🛶 Paddling</label>
+              <label><input type="checkbox" name="tag" value="programs"> 🌱 Programs offered</label>
+            </div>
+
+            <div style="padding-top:.5rem; border-top:1px solid var(--sand-dk);">
+              <button id="clear-filters" class="clear-all-btn">Clear all filters</button>
+            </div>
+
+          </div>
+        </aside>
+
+        <div class="filter-main">
+          <div id="results-bar" class="results-bar"></div>
+          <div id="places-grid" class="grid-3"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-logo">🌿 Lake &amp; Kenosha Homeschool Nature Guide</div>
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="map.html">Map</a>
+      <a href="museum-passes.html">Museum Passes</a>
+      <a href="about.html">About</a>
+    </nav>
+    <p class="footer-note">Free &bull; Open to all homeschool families &bull; Updated regularly</p>
+  </div>
+</footer>
+
+<script src="js/places.js"></script>
+</body>
+</html>

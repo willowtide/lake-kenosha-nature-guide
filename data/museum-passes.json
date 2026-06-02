@@ -1,0 +1,129 @@
+{
+  "programs": [
+    {
+      "id": "museum-adventure-pass",
+      "name": "Museum Adventure Pass",
+      "tagline": "Free museum admission through Lake County libraries",
+      "description": "Check out a Museum Adventure Pass from participating Lake County libraries and get free or reduced admission to dozens of museums and cultural attractions. Each pass admits a family for one visit.",
+      "website": "https://museumadventure.org/",
+      "how_it_works": [
+        "Borrow a pass from your participating library's collection",
+        "Passes check out for 3–7 days depending on the library",
+        "Present the pass at the museum for free admission",
+        "Each pass covers the whole family (typically 2 adults + children)"
+      ],
+      "participating_libraries": [
+        "Cook Memorial Public Library (Libertyville)",
+        "Grayslake Area Public Library",
+        "Lake Villa District Public Library",
+        "Round Lake Area Public Library",
+        "Warren-Newport Public Library (Gurnee)",
+        "Wauconda Area Public Library",
+        "Fox Lake District Public Library",
+        "Antioch Public Library District"
+      ],
+      "featured_venues": [
+        {"name": "Chicago Botanic Garden", "note": "Free general admission (parking fee still applies)"},
+        {"name": "Peggy Notebaert Nature Museum", "note": "Free admission"},
+        {"name": "The Field Museum", "note": "Free or reduced admission"},
+        {"name": "Shedd Aquarium", "note": "Free or reduced admission"},
+        {"name": "Art Institute of Chicago", "note": "Free admission"},
+        {"name": "Chicago History Museum", "note": "Free admission"},
+        {"name": "Adler Planetarium", "note": "Free or reduced admission"},
+        {"name": "Lake County Discovery Museum", "note": "Free admission"},
+        {"name": "Kohl Children's Museum", "note": "Free admission"}
+      ],
+      "tips": [
+        "Passes are popular — check out early in the week for weekend use",
+        "You can reserve passes online through most library catalogs",
+        "Some passes have blackout dates for special exhibitions"
+      ]
+    },
+    {
+      "id": "bofa-museums-on-us",
+      "name": "Bank of America Museums on Us",
+      "tagline": "Free museum admission the first full weekend of every month",
+      "description": "Bank of America and Merrill Lynch cardholders get free general admission to 225+ museums, science centers, and cultural institutions — including several near Lake County — on the first full weekend of each month (Saturday and Sunday).",
+      "website": "https://www.bankofamerica.com/deposits/museums-on-us/",
+      "how_it_works": [
+        "Program runs the first FULL weekend of each month (Sat + Sun)",
+        "Present your Bank of America or Merrill Lynch debit or credit card",
+        "Show a photo ID — admission is for the cardholder only (not whole family)",
+        "General admission only — special exhibitions may cost extra"
+      ],
+      "nearby_venues": [
+        {"name": "Chicago Botanic Garden", "location": "Glencoe, IL", "note": "Admission free (parking extra)"},
+        {"name": "Peggy Notebaert Nature Museum", "location": "Chicago, IL", "note": "Free for cardholder"},
+        {"name": "The Field Museum", "location": "Chicago, IL", "note": "Free general admission"},
+        {"name": "Art Institute of Chicago", "location": "Chicago, IL", "note": "Free general admission"},
+        {"name": "Shedd Aquarium", "location": "Chicago, IL", "note": "Free general admission"},
+        {"name": "Adler Planetarium", "location": "Chicago, IL", "note": "Free general admission"},
+        {"name": "Milwaukee Art Museum", "location": "Milwaukee, WI", "note": "Free general admission"},
+        {"name": "Milwaukee Public Museum", "location": "Milwaukee, WI", "note": "Free general admission"}
+      ],
+      "tips": [
+        "Admission is per cardholder — each adult with a BofA card gets in free",
+        "Weekends fill up fast at popular venues — arrive early or reserve timed tickets online",
+        "Check the BofA website each month — the venue list can change"
+      ]
+    },
+    {
+      "id": "peggy-notebaert-free-days",
+      "name": "Peggy Notebaert Nature Museum — Free Community Days",
+      "tagline": "Free admission for Illinois residents on select Thursdays",
+      "description": "The Peggy Notebaert Nature Museum offers free admission for Illinois residents on Community Free Days (check current schedule). Home to a spectacular live butterfly haven, a river ecosystem exhibit, and hands-on nature activities for kids.",
+      "website": "https://www.naturemuseum.org/",
+      "location": "2430 N Cannon Dr, Chicago, IL 60614",
+      "how_it_works": [
+        "Check the museum website for current free day schedule",
+        "Show Illinois ID at the door",
+        "All general exhibits included; special exhibitions may cost extra"
+      ],
+      "highlights": [
+        "Judy Istock Butterfly Haven (live butterflies!)",
+        "Chicago River ecosystem walk-through",
+        "Hands-on nature lab for kids",
+        "Wilderness Walk diorama gallery"
+      ]
+    },
+    {
+      "id": "field-museum-free-days",
+      "name": "Field Museum — Chicago Residents Free Days",
+      "tagline": "Free admission for Chicago residents and Illinois school groups",
+      "description": "The Field Museum offers free admission for Chicago residents on select days each year, and deeply discounted rates for Illinois residents. Home to Sue the T. rex and world-class natural history exhibits.",
+      "website": "https://www.fieldmuseum.org/visit/free-days",
+      "location": "1400 S Lake Shore Dr, Chicago, IL 60605",
+      "how_it_works": [
+        "Check the Field Museum website for current free day schedule",
+        "Chicago residents get the most free days; IL residents get discounts",
+        "Museum Adventure Pass can also provide free/reduced admission"
+      ],
+      "highlights": [
+        "SUE the T. rex",
+        "Evolving Planet exhibit",
+        "Ancient Egypt mummies",
+        "Underground Adventure (sensory experience)"
+      ]
+    },
+    {
+      "id": "brookfield-zoo-free-days",
+      "name": "Brookfield Zoo — Free Admission Days",
+      "tagline": "Several free-admission days per year",
+      "description": "Brookfield Zoo offers free general admission on select days throughout the year — typically a handful of times in spring, summer, and fall. Parking always has a fee. Check the zoo website for the current year's free days.",
+      "website": "https://www.czs.org/Brookfield-ZOO/Free-Days",
+      "location": "3300 Golf Rd, Brookfield, IL 60513",
+      "how_it_works": [
+        "Check the Brookfield Zoo website for free day dates each year",
+        "Arrive early — free days are very popular",
+        "Parking fee still applies on free days (~$15–20)",
+        "Museum Adventure Pass may also provide free admission"
+      ],
+      "highlights": [
+        "Hamill Family Wild Encounters (touch animals)",
+        "Stingray Bay",
+        "Great Bear Wilderness",
+        "7 Seas Pavilion (dolphin shows)"
+      ]
+    }
+  ]
+}

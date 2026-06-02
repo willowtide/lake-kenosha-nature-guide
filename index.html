@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lake & Kenosha Homeschool Nature Guide</title>
+  <meta name="description" content="Free events, nature spots, trails, beaches, playgrounds, and more for homeschool families in Lake County IL and Kenosha County WI.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="leaf">🌿</span>
+      <span>Lake &amp; Kenosha Nature Guide</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Events</a></li>
+      <li><a href="places.html">Places</a></li>
+      <li><a href="map.html">Map</a></li>
+      <li><a href="museum-passes.html">Museum Passes</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <p class="hero-eyebrow">Homeschool families &bull; Lake County IL &amp; Kenosha County WI</p>
+    <h1>Nature adventures &amp; learning<br>right outside your door</h1>
+    <p>Free and paid events, trails, beaches, playgrounds, and more — updated weekly for families who love the outdoors.</p>
+    <div class="hero-chips" id="quick-filters">
+      <button class="chip active" data-filter="all"><span class="chip-icon">✨</span> All upcoming</button>
+      <button class="chip" data-filter="free"><span class="chip-icon">💚</span> Free only</button>
+      <button class="chip" data-filter="lake-il"><span class="chip-icon">🌊</span> Lake County IL</button>
+      <button class="chip" data-filter="kenosha-wi"><span class="chip-icon">🌲</span> Kenosha County WI</button>
+      <button class="chip" data-filter="this-week"><span class="chip-icon">📅</span> This week</button>
+      <button class="chip" data-filter="nature"><span class="chip-icon">🍃</span> Nature</button>
+      <button class="chip" data-filter="library"><span class="chip-icon">📚</span> Library programs</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:.75rem; margin-bottom:1.25rem;">
+        <h2 class="section-title" style="margin-bottom:0;">Upcoming Events</h2>
+        <a href="events.html" style="font-size:.9rem; color:var(--moss); font-weight:600;">View all with filters →</a>
+      </div>
+      <div id="results-bar" class="results-bar" style="margin-bottom:.75rem;"></div>
+      <div id="events-list"></div>
+      <div style="text-align:center; margin-top:1.75rem;">
+        <a href="events.html" class="chip" style="font-size:.95rem; padding:.5rem 1.25rem;">See all events with full filters →</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--sand); padding:2rem 0; border-top:2px solid var(--sand-dk); border-bottom:2px solid var(--sand-dk);">
+    <div class="container">
+      <h2 style="color:var(--moss-dk); margin-bottom:1rem;">Explore the region</h2>
+      <div class="grid-3">
+        <a href="places.html?type=trail" style="text-decoration:none;">
+          <div class="place-card" style="text-align:center;">
+            <div style="font-size:2.5rem; margin-bottom:.5rem;">🥾</div>
+            <h3 style="color:var(--moss-dk);">Hiking Trails</h3>
+            <p class="text-sm text-lt">Forest preserves, state parks, and river trails throughout both counties.</p>
+          </div>
+        </a>
+        <a href="places.html?type=beach" style="text-decoration:none;">
+          <div class="place-card" style="text-align:center;">
+            <div style="font-size:2.5rem; margin-bottom:.5rem;">🏖️</div>
+            <h3 style="color:var(--moss-dk);">Beaches &amp; Swimming</h3>
+            <p class="text-sm text-lt">Lake Michigan shores, inland lakes, and splash pads for summer fun.</p>
+          </div>
+        </a>
+        <a href="places.html?type=nature-center" style="text-decoration:none;">
+          <div class="place-card" style="text-align:center;">
+            <div style="font-size:2.5rem; margin-bottom:.5rem;">🦋</div>
+            <h3 style="color:var(--moss-dk);">Nature Centers</h3>
+            <p class="text-sm text-lt">Trailside museums, wildlife sanctuaries, and hands-on learning spots.</p>
+          </div>
+        </a>
+        <a href="places.html?type=splash-pad" style="text-decoration:none;">
+          <div class="place-card" style="text-align:center;">
+            <div style="font-size:2.5rem; margin-bottom:.5rem;">💦</div>
+            <h3 style="color:var(--moss-dk);">Splash Pads</h3>
+            <p class="text-sm text-lt">Free water play spots perfect for hot summer days.</p>
+          </div>
+        </a>
+        <a href="places.html?type=farm" style="text-decoration:none;">
+          <div class="place-card" style="text-align:center;">
+            <div style="font-size:2.5rem; margin-bottom:.5rem;">🌽</div>
+            <h3 style="color:var(--moss-dk);">Farms &amp; Fairs</h3>
+            <p class="text-sm text-lt">Pick-your-own farms, corn mazes, county fairs, and seasonal fun.</p>
+          </div>
+        </a>
+        <a href="museum-passes.html" style="text-decoration:none;">
+          <div class="place-card" style="text-align:center;">
+            <div style="font-size:2.5rem; margin-bottom:.5rem;">🎟️</div>
+            <h3 style="color:var(--moss-dk);">Museum Passes</h3>
+            <p class="text-sm text-lt">Free museum admission through library passes and Bank of America.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="highlight-box">
+        <strong>🗓️ This site updates every Monday</strong> — the events list is automatically refreshed with the latest programs from Lake County Forest Preserves, local libraries, Kenosha County Parks, and more.
+        If you know of an event or place we're missing, <a href="about.html">let us know</a>.
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-logo">🌿 Lake &amp; Kenosha Homeschool Nature Guide</div>
+    <nav class="footer-links">
+      <a href="events.html">Events</a>
+      <a href="places.html">Places</a>
+      <a href="map.html">Map</a>
+      <a href="museum-passes.html">Museum Passes</a>
+      <a href="about.html">About</a>
+    </nav>
+    <p class="footer-note">Free &bull; Open to all homeschool families &bull; Lake County IL &amp; Kenosha County WI</p>
+  </div>
+</footer>
+
+<script>
+// Inline homepage event rendering (simplified — full version in events.js)
+(async function() {
+  const list = document.getElementById('events-list');
+  const bar  = document.getElementById('results-bar');
+
+  list.innerHTML = '<div class="loading"><div class="spinner"></div> Loading events…</div>';
+
+  let allEvents = [];
+  try {
+    const res = await fetch('data/events.json');
+    const data = await res.json();
+    allEvents = data.events || [];
+  } catch(e) {
+    list.innerHTML = '<div class="empty-state"><div class="empty-icon">🌧️</div><h3>Couldn\'t load events</h3><p>Try refreshing the page.</p></div>';
+    return;
+  }
+
+  // Quick filter state
+  let activeFilter = 'all';
+  const today = new Date();
+  today.setHours(0,0,0,0);
+
+  const chips = document.querySelectorAll('#quick-filters .chip');
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeFilter = chip.dataset.filter;
+      render();
+    });
+  });
+
+  function getWeekEnd() {
+    const d = new Date(today);
+    d.setDate(d.getDate() + (7 - d.getDay()));
+    return d;
+  }
+
+  function filterEvents(events) {
+    const weekEnd = getWeekEnd();
+    return events.filter(e => {
+      const d = new Date(e.date + 'T00:00:00');
+      if (d < today) return false;
+      if (activeFilter === 'all') return true;
+      if (activeFilter === 'free') return e.cost === 'free';
+      if (activeFilter === 'lake-il') return e.county === 'lake-il';
+      if (activeFilter === 'kenosha-wi') return e.county === 'kenosha-wi';
+      if (activeFilter === 'this-week') return d <= weekEnd;
+      if (activeFilter === 'nature') return (e.categories||[]).includes('nature');
+      if (activeFilter === 'library') return (e.categories||[]).includes('library');
+      return true;
+    }).slice(0, 15);
+  }
+
+  const MONTH = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const DOW   = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const CAT_LABEL = {nature:'Nature',hiking:'Hiking',science:'Science',art:'Art',library:'Library',museum:'Museum',festival:'Festival',farm:'Farm',fishing:'Fishing',beach:'Beach'};
+
+  function renderCard(e) {
+    const d = new Date(e.date + 'T00:00:00');
+    const regLink = e.registration_required && e.registration_url
+      ? `<a href="${e.registration_url}" target="_blank" rel="noopener">Register →</a>` : '';
+    const costBadge = e.cost === 'free'
+      ? '<span class="badge badge-free">FREE</span>'
+      : `<span class="badge badge-paid">${e.cost_detail || 'Paid'}</span>`;
+    const catBadges = (e.categories||[]).map(c =>
+      `<span class="badge badge-cat">${CAT_LABEL[c]||c}</span>`).join('');
+    const regBadge = e.registration_required ? '<span class="badge" style="background:var(--berry);color:#fff;">Registration required</span>' : '';
+    const timeStr = e.time ? `${e.time}${e.end_time ? ' – '+e.end_time : ''}` : '';
+    const srcLink = e.source_url ? `<a href="${e.source_url}" target="_blank" rel="noopener">${e.source}</a>` : e.source;
+
+    return `<div class="event-card mb-1">
+      <div class="event-date-block">
+        <div class="month">${MONTH[d.getMonth()]}</div>
+        <div class="day">${d.getDate()}</div>
+        <div class="dow">${DOW[d.getDay()]}</div>
+      </div>
+      <div class="event-body">
+        <div class="event-title">${e.source_url ? `<a href="${e.source_url}" target="_blank" rel="noopener">${e.title}</a>` : e.title}</div>
+        <div class="event-meta">
+          ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
+          <span>📍 ${e.location_name}</span>
+          ${e.ages && e.ages !== 'all' ? `<span>👧 Ages ${e.ages}</span>` : ''}
+        </div>
+        <p class="text-sm text-lt" style="margin-bottom:.4rem;">${e.description}</p>
+        <div class="event-badges">${costBadge}${catBadges}${regBadge}</div>
+        <div class="event-source mt-1">${srcLink}${regLink ? ' &bull; '+regLink : ''}</div>
+      </div>
+    </div>`;
+  }
+
+  function render() {
+    const filtered = filterEvents(allEvents);
+    bar.innerHTML = `<span class="results-count">${filtered.length} upcoming event${filtered.length !== 1 ? 's' : ''}</span>`;
+    if (filtered.length === 0) {
+      list.innerHTML = '<div class="empty-state"><div class="empty-icon">🌦️</div><h3>No events found</h3><p>Try a different filter, or check back after the weekly update.</p></div>';
+    } else {
+      list.innerHTML = filtered.map(renderCard).join('');
+    }
+  }
+
+  render();
+})();
+</script>
+
+</body>
+</html>

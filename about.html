@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Lake & Kenosha Homeschool Nature Guide</title>
+  <meta name="description" content="About the Lake & Kenosha Homeschool Nature Guide — a free resource made by a homeschool mom for homeschool families.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="leaf">🌿</span>
+      <span>Lake &amp; Kenosha Nature Guide</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="places.html">Places</a></li>
+      <li><a href="map.html">Map</a></li>
+      <li><a href="museum-passes.html">Museum Passes</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <h1>About This Guide</h1>
+    <p>A free resource made by a homeschool mom, for homeschool families who love the outdoors.</p>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container" style="max-width:740px;">
+
+      <div class="info-card">
+        <h2 style="color:var(--moss-dk); margin-bottom:.75rem;">🌿 What is this?</h2>
+        <p>The <strong>Lake &amp; Kenosha Homeschool Nature Guide</strong> is a free, community-built website for nature-loving homeschool families in <strong>Lake County, IL</strong> and <strong>Kenosha County, WI</strong>.</p>
+        <p>It gathers nature programs, outdoor events, and family-friendly places into one easy-to-search spot — because spending 45 minutes hunting through seven different park district websites to find one Saturday program is not how we want to spend our morning.</p>
+        <p>Everything here is open to all ages and all days of the week — perfect for flexible homeschool schedules.</p>
+      </div>
+
+      <div class="info-card mt-2">
+        <h2 style="color:var(--moss-dk); margin-bottom:.75rem;">🗓️ How does it stay up to date?</h2>
+        <p>The <strong>Events</strong> section updates automatically every Monday morning. A script runs through the event calendars of Lake County Forest Preserves, local libraries, Kenosha County Parks, the Wisconsin and Illinois DNR, and more — then publishes the results here.</p>
+        <p>The <strong>Places</strong> section (trails, beaches, splash pads, etc.) is manually curated. These spots don't change often, but if something is out of date, please let me know!</p>
+        <div class="highlight-box" style="margin-top:.75rem; margin-bottom:0;">
+          <strong>📅 Update schedule:</strong> Events refresh every Monday at 6 AM. If you're checking mid-week, the list may be a few days old — but new events are always added each Monday.
+        </div>
+      </div>
+
+      <div class="info-card mt-2">
+        <h2 style="color:var(--moss-dk); margin-bottom:.75rem;">📍 What's covered</h2>
+        <div class="grid-2" style="gap:.75rem;">
+          <div>
+            <h4 style="color:var(--moss); margin-bottom:.4rem;">Lake County IL sources</h4>
+            <ul style="padding-left:1rem; list-style:disc; font-size:.9rem; line-height:2;">
+              <li>Lake County Forest Preserves</li>
+              <li>Illinois DNR events</li>
+              <li>Grayslake, Gurnee, Round Lake, Wauconda, Vernon Hills park districts</li>
+              <li>Lake County libraries (8 branches)</li>
+              <li>Visit Lake County aggregator</li>
+            </ul>
+          </div>
+          <div>
+            <h4 style="color:var(--moss); margin-bottom:.4rem;">Kenosha County WI sources</h4>
+            <ul style="padding-left:1rem; list-style:disc; font-size:.9rem; line-height:2;">
+              <li>Kenosha County Parks</li>
+              <li>Pringle Nature Center</li>
+              <li>Hawthorn Hollow</li>
+              <li>Kenosha Public Library</li>
+              <li>Wisconsin DNR events</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-sm text-lt mt-2">Day trips to Chicago and Milwaukee are also included for museums, zoos, and botanical gardens worth the drive.</p>
+      </div>
+
+      <div class="info-card mt-2">
+        <h2 style="color:var(--moss-dk); margin-bottom:.75rem;">💚 Free &amp; paid events</h2>
+        <p>Both free and paid events are listed, always clearly labeled with a <span class="badge badge-free">FREE</span> or <span class="badge badge-paid">Paid</span> badge. Use the <strong>Free only</strong> filter if you want to see just no-cost events.</p>
+        <p>Many of the best programs in this area — especially through the Lake County Forest Preserves, public libraries, and Kenosha County Parks — are completely free.</p>
+      </div>
+
+      <div class="info-card mt-2">
+        <h2 style="color:var(--moss-dk); margin-bottom:.75rem;">✉️ Suggest a place or event</h2>
+        <p>Know a great trail, playground, splash pad, or recurring program that should be on here? Found something out of date or incorrect?</p>
+        <p>This site lives on GitHub — you can <a href="https://github.com" target="_blank" rel="noopener">open an issue or pull request</a> if you're comfortable with that, or just reach out directly. Community contributions make this better for everyone.</p>
+        <p class="text-sm text-lt">The source code and all data files are public, so anyone can see exactly how it works.</p>
+      </div>
+
+      <div class="info-card mt-2">
+        <h2 style="color:var(--moss-dk); margin-bottom:.75rem;">🛠️ Technical notes</h2>
+        <p>This is a simple static website hosted for free on <strong>GitHub Pages</strong>. No ads, no tracking, no accounts, no paywalls.</p>
+        <ul style="padding-left:1rem; list-style:disc; font-size:.9rem; line-height:2;">
+          <li>Events data: automatically scraped and committed every Monday via GitHub Actions</li>
+          <li>Places data: hand-curated JSON file, updated as needed</li>
+          <li>Map: <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet.js</a> with OpenStreetMap tiles (both free and open source)</li>
+          <li>No cookies, no analytics, no external fonts</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-logo">🌿 Lake &amp; Kenosha Homeschool Nature Guide</div>
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="places.html">Places</a>
+      <a href="map.html">Map</a>
+      <a href="museum-passes.html">Museum Passes</a>
+    </nav>
+    <p class="footer-note">Free &bull; Open to all homeschool families &bull; Lake County IL &amp; Kenosha County WI</p>
+  </div>
+</footer>
+
+</body>
+</html>

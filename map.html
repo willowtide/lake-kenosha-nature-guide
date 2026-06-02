@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map — Lake & Kenosha Homeschool Nature Guide</title>
+  <meta name="description" content="Interactive map of trails, beaches, nature centers, and family spots in Lake County IL and Kenosha County WI.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+  <style>
+    #map { height: calc(100vh - var(--nav-h) - 160px); min-height: 420px; }
+    .map-controls {
+      display: flex; flex-wrap: wrap; gap: .5rem; align-items: center;
+      padding: .75rem 0;
+    }
+    .map-type-btn {
+      padding: .3rem .75rem;
+      border-radius: 999px;
+      border: 1.5px solid var(--sand-dk);
+      background: var(--white);
+      font-size: .82rem;
+      font-weight: 500;
+      color: var(--text);
+      cursor: pointer;
+      transition: background .15s, border-color .15s;
+    }
+    .map-type-btn.active, .map-type-btn:hover {
+      background: var(--moss);
+      border-color: var(--moss);
+      color: var(--white);
+    }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="leaf">🌿</span>
+      <span>Lake &amp; Kenosha Nature Guide</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="places.html">Places</a></li>
+      <li><a href="map.html" class="active">Map</a></li>
+      <li><a href="museum-passes.html">Museum Passes</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="container" style="padding-top:.75rem;">
+    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:.5rem;">
+      <h1 style="font-size:1.3rem; color:var(--moss-dk);">🗺️ Places Map</h1>
+      <a href="places.html" class="text-sm" style="color:var(--moss);">← View as list</a>
+    </div>
+
+    <div class="map-controls" id="type-filters">
+      <button class="map-type-btn active" data-type="all">All</button>
+      <button class="map-type-btn" data-type="trail">🥾 Trails</button>
+      <button class="map-type-btn" data-type="beach">🏖️ Beaches</button>
+      <button class="map-type-btn" data-type="nature-center">🦋 Nature Centers</button>
+      <button class="map-type-btn" data-type="splash-pad">💦 Splash Pads</button>
+      <button class="map-type-btn" data-type="farm">🌽 Farms</button>
+      <button class="map-type-btn" data-type="fairground">🎪 Fairs</button>
+    </div>
+
+    <div class="map-legend" id="map-legend"></div>
+    <div id="map"></div>
+    <p class="text-sm text-lt" style="margin-top:.5rem; margin-bottom:0;">
+      Click any pin for details. <a href="places.html">Full listing with filters →</a>
+    </p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-logo">🌿 Lake &amp; Kenosha Homeschool Nature Guide</div>
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="places.html">Places</a>
+      <a href="museum-passes.html">Museum Passes</a>
+      <a href="about.html">About</a>
+    </nav>
+    <p class="footer-note">Free &bull; Open to all homeschool families</p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/map.js"></script>
+</body>
+</html>

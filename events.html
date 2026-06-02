@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events — Lake & Kenosha Homeschool Nature Guide</title>
+  <meta name="description" content="Browse all upcoming nature and homeschool-friendly events in Lake County IL and Kenosha County WI. Filter by cost, category, location, and more.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="leaf">🌿</span>
+      <span>Lake &amp; Kenosha Nature Guide</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html" class="active">Events</a></li>
+      <li><a href="places.html">Places</a></li>
+      <li><a href="map.html">Map</a></li>
+      <li><a href="museum-passes.html">Museum Passes</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <h1>📅 Upcoming Events</h1>
+    <p>Nature programs, library events, farm days, and more — for homeschool families in Lake County IL and Kenosha County WI. Updated every Monday.</p>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+
+      <button class="filter-toggle-btn" id="filter-toggle" aria-expanded="false">
+        <span>🔍 Filters</span>
+        <span id="filter-badge" class="filter-count-badge" style="display:none;">0</span>
+        <span id="filter-arrow">▼</span>
+      </button>
+
+      <div class="filter-layout">
+
+        <aside class="filter-sidebar" id="filter-sidebar">
+          <div class="filter-groups">
+
+            <div class="filter-group">
+              <span class="filter-label">📅 Date range</span>
+              <label><input type="radio" name="date" value="all" checked> All upcoming</label>
+              <label><input type="radio" name="date" value="week"> This week</label>
+              <label><input type="radio" name="date" value="month"> This month</label>
+              <label><input type="radio" name="date" value="next30"> Next 30 days</label>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-label">📍 Region</span>
+              <label><input type="checkbox" name="county" value="lake-il"> Lake County IL</label>
+              <label><input type="checkbox" name="county" value="kenosha-wi"> Kenosha County WI</label>
+              <label><input type="checkbox" name="county" value="chicago-day-trip"> Chicago day trip</label>
+              <label><input type="checkbox" name="county" value="milwaukee-day-trip"> Milwaukee day trip</label>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-label">💰 Cost</span>
+              <label><input type="radio" name="cost" value="all" checked> Free &amp; paid</label>
+              <label><input type="radio" name="cost" value="free"> Free only</label>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-label">🍃 Category</span>
+              <label><input type="checkbox" name="cat" value="nature"> 🌿 Nature</label>
+              <label><input type="checkbox" name="cat" value="hiking"> 🥾 Hiking</label>
+              <label><input type="checkbox" name="cat" value="science"> 🔬 Science</label>
+              <label><input type="checkbox" name="cat" value="art"> 🎨 Art &amp; crafts</label>
+              <label><input type="checkbox" name="cat" value="library"> 📚 Library program</label>
+              <label><input type="checkbox" name="cat" value="museum"> 🏛️ Museum</label>
+              <label><input type="checkbox" name="cat" value="farm"> 🌽 Farm</label>
+              <label><input type="checkbox" name="cat" value="festival"> 🎪 Festival &amp; fair</label>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-label">📆 Day of week</span>
+              <label><input type="checkbox" name="dow" value="0"> Sunday</label>
+              <label><input type="checkbox" name="dow" value="1"> Monday</label>
+              <label><input type="checkbox" name="dow" value="2"> Tuesday</label>
+              <label><input type="checkbox" name="dow" value="3"> Wednesday</label>
+              <label><input type="checkbox" name="dow" value="4"> Thursday</label>
+              <label><input type="checkbox" name="dow" value="5"> Friday</label>
+              <label><input type="checkbox" name="dow" value="6"> Saturday</label>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-label">👧 Registration</span>
+              <label><input type="radio" name="reg" value="all" checked> All events</label>
+              <label><input type="radio" name="reg" value="no-reg"> No registration needed</label>
+            </div>
+
+            <div style="padding-top:.5rem; border-top:1px solid var(--sand-dk);">
+              <button id="clear-filters" class="clear-all-btn">Clear all filters</button>
+            </div>
+
+          </div>
+        </aside>
+
+        <div class="filter-main">
+          <div id="results-bar" class="results-bar"></div>
+          <div id="events-list"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-logo">🌿 Lake &amp; Kenosha Homeschool Nature Guide</div>
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="places.html">Places</a>
+      <a href="map.html">Map</a>
+      <a href="museum-passes.html">Museum Passes</a>
+      <a href="about.html">About</a>
+    </nav>
+    <p class="footer-note">Free &bull; Open to all homeschool families &bull; Updated weekly</p>
+  </div>
+</footer>
+
+<script src="js/events.js"></script>
+</body>
+</html>
