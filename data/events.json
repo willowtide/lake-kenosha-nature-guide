@@ -1,30 +1,8 @@
 {
-  "scraped_at": "2026-06-02T17:58:39Z",
-  "event_count": 10,
+  "scraped_at": "2026-06-08T17:37:18Z",
+  "event_count": 9,
   "errors": [],
   "events": [
-    {
-      "id": "lcfpd-2026-06-07-family-nature-hike",
-      "title": "Family Nature Hike: Wildflowers & Pollinators",
-      "source": "Lake County Forest Preserves",
-      "source_url": "https://lcfpd.recdesk.com/Community/Program",
-      "date": "2026-06-07",
-      "time": "9:00 AM",
-      "end_time": "11:00 AM",
-      "location_name": "Ryerson Woods",
-      "address": "21950 N Riverwoods Rd, Riverwoods, IL",
-      "county": "lake-il",
-      "cost": "free",
-      "cost_detail": "",
-      "ages": "all",
-      "categories": [
-        "nature",
-        "hiking"
-      ],
-      "description": "Join a naturalist for a guided walk through Ryerson Woods to explore spring wildflowers and the pollinators that depend on them. All ages welcome.",
-      "registration_required": true,
-      "registration_url": "https://lcfpd.recdesk.com/Community/Program"
-    },
     {
       "id": "lcfpd-2026-06-08-fishing-clinic",
       "title": "Kids' Fishing Clinic",
