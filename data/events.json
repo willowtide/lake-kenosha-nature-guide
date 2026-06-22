@@ -1,75 +1,8 @@
 {
-  "scraped_at": "2026-06-15T20:01:18Z",
-  "event_count": 5,
+  "scraped_at": "2026-06-22T18:58:24Z",
+  "event_count": 2,
   "errors": [],
   "events": [
-    {
-      "id": "pringle-2026-06-15-bug-safari",
-      "title": "Bug Safari for Kids",
-      "source": "Pringle Nature Center",
-      "source_url": "https://pringlenaturecenter.org/",
-      "date": "2026-06-15",
-      "time": "10:00 AM",
-      "end_time": "11:30 AM",
-      "location_name": "Pringle Nature Center (Bristol Woods)",
-      "address": "9800 160th Ave, Bristol, WI 53104",
-      "county": "kenosha-wi",
-      "cost": "paid",
-      "cost_detail": "$5/child",
-      "ages": "4–10",
-      "categories": [
-        "nature",
-        "science"
-      ],
-      "description": "Grab your nets and magnifying glasses! We'll hunt for insects, spiders, and other creepy-crawlies in the meadow and forest.",
-      "registration_required": true,
-      "registration_url": "https://pringlenaturecenter.org/"
-    },
-    {
-      "id": "warren-lib-2026-06-17-reptiles",
-      "title": "Reptiles LIVE! Family Program",
-      "source": "Warren-Newport Public Library",
-      "source_url": "https://www.wnpl.info/",
-      "date": "2026-06-17",
-      "time": "1:00 PM",
-      "end_time": "2:00 PM",
-      "location_name": "Warren-Newport Public Library",
-      "address": "224 N O'Plaine Rd, Gurnee, IL 60031",
-      "county": "lake-il",
-      "cost": "free",
-      "cost_detail": "",
-      "ages": "all",
-      "categories": [
-        "science",
-        "library"
-      ],
-      "description": "A live animal presenter brings snakes, lizards, turtles, and more. Kids get up-close with real reptiles and learn about their habitats.",
-      "registration_required": true,
-      "registration_url": "https://www.wnpl.info/"
-    },
-    {
-      "id": "cbg-2026-06-21-family-day",
-      "title": "Family Nature Play Day",
-      "source": "Chicago Botanic Garden",
-      "source_url": "https://www.chicagobotanic.org/calendar",
-      "date": "2026-06-21",
-      "time": "10:00 AM",
-      "end_time": "3:00 PM",
-      "location_name": "Chicago Botanic Garden",
-      "address": "1000 Lake Cook Rd, Glencoe, IL 60022",
-      "county": "chicago-day-trip",
-      "cost": "free",
-      "cost_detail": "Admission free; parking ~$30",
-      "ages": "all",
-      "categories": [
-        "nature",
-        "art",
-        "science"
-      ],
-      "description": "Drop-in family activities across the garden including nature journaling, seed planting, and guided discovery walks. No registration needed.",
-      "registration_required": false,
-      "registration_url": ""
-    },
     {
       "id": "lcfpd-2026-06-28-firefly-walk",
       "title": "Evening Firefly Walk",
