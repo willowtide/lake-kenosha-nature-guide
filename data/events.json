@@ -1,29 +1,8 @@
 {
-  "scraped_at": "2026-06-22T18:58:24Z",
-  "event_count": 2,
+  "scraped_at": "2026-06-29T17:13:51Z",
+  "event_count": 1,
   "errors": [],
   "events": [
-    {
-      "id": "lcfpd-2026-06-28-firefly-walk",
-      "title": "Evening Firefly Walk",
-      "source": "Lake County Forest Preserves",
-      "source_url": "https://lcfpd.recdesk.com/Community/Program",
-      "date": "2026-06-28",
-      "time": "8:30 PM",
-      "end_time": "10:00 PM",
-      "location_name": "Lakewood Forest Preserve",
-      "address": "2546 N Rt 176, Wauconda, IL 60084",
-      "county": "lake-il",
-      "cost": "free",
-      "cost_detail": "",
-      "ages": "all",
-      "categories": [
-        "nature"
-      ],
-      "description": "One of summer's most magical experiences! Join a naturalist at dusk to observe fireflies flashing in the meadows. Bring a flashlight and bug spray.",
-      "registration_required": true,
-      "registration_url": "https://lcfpd.recdesk.com/Community/Program"
-    },
     {
       "id": "hawthorn-2026-07-05-prairie-walk",
       "title": "Prairie in Bloom Walk",
