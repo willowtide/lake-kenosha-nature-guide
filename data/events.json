@@ -1,29 +1,6 @@
 {
-  "scraped_at": "2026-06-29T17:13:51Z",
-  "event_count": 1,
+  "scraped_at": "2026-07-06T17:19:38Z",
+  "event_count": 0,
   "errors": [],
-  "events": [
-    {
-      "id": "hawthorn-2026-07-05-prairie-walk",
-      "title": "Prairie in Bloom Walk",
-      "source": "Hawthorn Hollow Nature Sanctuary",
-      "source_url": "https://hawthornhollow.org/events/",
-      "date": "2026-07-05",
-      "time": "9:00 AM",
-      "end_time": "10:30 AM",
-      "location_name": "Hawthorn Hollow Nature Sanctuary",
-      "address": "880 Green Bay Rd, Kenosha, WI 53144",
-      "county": "kenosha-wi",
-      "cost": "free",
-      "cost_detail": "Donations welcome",
-      "ages": "all",
-      "categories": [
-        "nature",
-        "hiking"
-      ],
-      "description": "Walk through Hawthorn Hollow's restored prairie at peak summer bloom. Learn to identify native wildflowers and the insects that visit them.",
-      "registration_required": false,
-      "registration_url": ""
-    }
-  ]
+  "events": []
 }
